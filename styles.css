@@ -1,49 +1,87 @@
 body {
-            background: #f3f2f3;
-            color: #000000;
-            font-family: Trebuchet MS, Arial, Times New Roman;
-            font-size: 14px;
-}
- 
-.ln {
-            background: #d6d9d6;
-            margin: 30px auto;
-            width: 900px;
-            height: 600px;
-}
- 
-.header {
-            background: #66CCCC;
-            height: 80px;
-            width: 900px;
-}
- 
-.navigation {
-            background: #b0c5e1;
-            width: 900px;
-            height: 20px;
-}
- 
-.menu {
-            background: #8a8e8c;
-            float: left;
-            width: 200px;
-            height: 400px;
-}
- 
-.content {
-            background: #d2d0d2;
-            float: right;
- 
-            width: 700px;
-            height: 400px;
+      font-family: Myriad Pro, sans-serif;
+      padding: 0;
+      margin: 0;
 }
 
-.clear {
-            clear:both;
+.clearfix:after {
+      content: '';
+      display: table;
+      width: 100%;
+      clear: both;
 }
-.footer {
-            background: #595e5c;
-            height: 80px;
-            width: 900px;
+            
+div {
+      box-sizing: border-box;
+}       
+header {
+      background: url(img/fon1.png) no-repeat center top / cover;
+      height: 650px;
+
+}
+ 
+.container {
+      width: 93%;
+      margin: 0 auto;
+
+
+}
+
+.logo {
+      float: right;
+      margin: 30px 0 0 0;
+
+}
+
+nav {
+      float: right;
+      margin: 27px 0 0 0;
+
+}
+
+.menu {
+      padding: 0;
+      margin: 0;
+      display: block;
+}
+
+
+.menu li {
+      float: left;
+      display: block;
+      margin-right: 40px;
+
+}
+.menu li a {
+      color: #161b19;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: Myriad Pro, sans-serif;
+      font-size: 18px;
+
+}
+h2{
+      font-size: 50px;
+      margin: 160px 0 0 100px;
+      color: #000;
+      text-decoration: none;
+      font-weight: normal;
+
+      
+}
+.titles_ferst {
+      font-size: 18px;
+      color: #000;
+      margin: 25px 0 0 100px;
+      text-align: left;
+      font-weight: normal;
+
+
+}
+
+.titles1 {
+      width: 550px;
+}
+.pl {
+      margin: 30px 0 0 105px;
 }
