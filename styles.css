@@ -17,6 +17,8 @@ div {
 header {
       background: url(img/fon1.png) no-repeat center top / cover;
       height: 650px;
+      margin-bottom: 50px;
+      
 
 }
  
@@ -56,32 +58,97 @@ nav {
       color: #161b19;
       text-decoration: none;
       text-transform: uppercase;
-      font-family: Myriad Pro, sans-serif;
       font-size: 18px;
 
 }
-h2{
+.titles h2{
       font-size: 50px;
       margin: 160px 0 0 100px;
       color: #000;
-      text-decoration: none;
       font-weight: normal;
 
       
 }
-.titles_ferst {
+.titles__1 {
       font-size: 18px;
       color: #000;
       margin: 25px 0 0 100px;
       text-align: left;
       font-weight: normal;
-
-
+      width: 470px;
+      display: block;
 }
 
-.titles1 {
-      width: 550px;
-}
 .pl {
       margin: 30px 0 0 105px;
+}
+
+#section-1 {
+      background: url(img/fon2.png) no-repeat center / cover;
+      height: 650px;
+      margin-bottom: 50px;
+}
+
+
+.title h2 {
+      font-size: 50px;  
+      margin: 140px 175px 0 0;
+      color: #000;
+      font-weight: normal;
+      float: right;
+      display: block;
+      width: 400px;
+      height: 80px;
+      
+
+}      
+.title__1 {
+      font-size: 18px;
+      color: #000;
+      margin: 10px 70px 0 0;
+      text-align: left;
+      font-weight: normal;
+      width: 620px;
+      display: block;
+      float: right; 
+}
+
+.pl_2 {
+      display: block;
+      width: 90px;
+      height: 30px;
+      float: left;
+      margin: 157px 0 0 565px;
+      
+}
+nav {
+      float: right;
+}
+
+.icon {
+      float: left;
+      display: block;
+      margin: 50px 377px 0 0;
+      width: 250px
+
+
+}
+
+.icon img {
+      margin: 8px;
+}
+
+#section-2 {
+      background: url(img/fon3.png) no-repeat center / cover;
+      height: 650px;
+}
+.Previous {
+      float: left;
+      display: block;
+      margin: 300px 0 0 0;
+}
+.Next {
+      float: right;
+      display: block;
+      margin: 300px 0px 0 0;
 }
